@@ -1,0 +1,173 @@
+<resources>
+    <string name="app_name">Crop Information Collection System</string>
+
+
+    <string-array name="State_arrays">
+        <item>MAHARASHTRA</item>
+        <item>Bihar</item>
+        <item>Delhi</item>
+    </string-array>
+
+
+    <string name="Crop_Name">Crop Name</string>
+    <string name="Climate">Climate</string>
+    <string name="Soil_type">Soil type</string>
+    <string name="Rainfall_mm">Rainfall (mm)</string>
+    <string name="Irrigation_Source_irrigate_or_rainfed">Irrigation Source (irrigate or rainfed)</string>
+    <string name="Water_Source">Water Source</string>
+    <string name="Water_cannel">Cannel</string>
+    <string name="Water_tube_well">Tube Well</string>
+    <string name="Water_open_well">Open Well</string>
+    <string name="Sowing_date">Sowing date (for field crops)</string>
+
+    <string-array name="Aromatic">
+        <item>Aromatic Plants</item>
+        <item>Ambrette Seed</item>
+        <item>Chamomile</item>
+        <item>Davana</item>
+        <item>Eucalyptus citriodora</item>
+        <item>French Jasmine</item>
+        <item>Indian Basil/Tulsi</item>
+        <item>Jamarosa</item>
+        <item>Kewda/Panadanas</item>
+        <item>Lemon Grass</item>
+        <item>Palmarosa</item>
+        <item>Patchouli</item>
+        <item>Rose Geranium</item>
+        <item>Vetiver /Khus</item>
+    </string-array>
+
+    <string-array name="Field">
+        <item>Field Crops</item>
+        <item>Cereals</item>
+        <item>Oil seeds</item>
+        <item>Pulses</item>
+        <item>Grasses and Legumes</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Fruit">
+        <item>Fruits</item>
+        <item>Almond</item>
+        <item>Aonla</item>
+        <item>Apple</item>
+        <item>Apricot</item>
+        <item>Bael</item>
+        <item>Banana</item>
+        <item>Ber</item>
+        <item>Blueberry</item>
+        <item>ChestnutCherry</item>
+        <item>Custard Apple</item>
+        <item>Date Palm</item>
+        <item>Eurale Ferox (Makhana)</item>
+        <item>Fig</item>
+        <item>Grape</item>
+        <item>Guava</item>
+        <item>Jackfruit</item>
+        <item>Kiwi</item>
+        <item>Limes and Lemons</item>
+        <item>Litchi</item>
+        <item>Mandarin( Nagpur Orange)</item>
+        <item>Mango</item>
+        <item>Muskmelon</item>
+        <item>Papaya</item>
+        <item>Passion Fruit</item>
+        <item>Peach</item>
+        <item>Pear</item>
+        <item>Picanut</item>
+        <item>Pineapple</item>
+        <item>Plum</item>
+        <item>Pomegranate</item>
+        <item>Sapota</item>
+        <item>Strawberry</item>
+        <item>Sweet Orange (Mosambi)</item>
+        <item>Walnut</item>
+        <item>Water Melon</item>
+    </string-array>
+
+    <string-array name="Flower">
+        <item>Flowers </item>
+        <item>Alstroemeria</item>
+        <item>Anthurium</item>
+        <item>Calla Lily</item>
+        <item>Carnation</item>
+        <item>Chrysanthemum</item>
+        <item>Gerbera</item>
+        <item>Jasmine</item>
+        <item>Lilium</item>
+        <item>Marigold</item>
+        <item>Orchids</item>
+        <item>Rose</item>
+        <item>Tube Rose</item>
+        <item>Tulip</item>
+    </string-array>
+
+    <string-array name="Medicinal">
+        <item>Medicinal Plants</item>
+        <item>Aloe vera</item>
+        <item>Ashwagandha (Withania somnifera)</item>
+        <item>Butch</item>
+        <item>Coleus</item>
+        <item>Esfand /Harmal</item>
+        <item>Glory Lily</item>
+        <item>Guggul/ Indian bdellium-tree</item>
+        <item>Haritaki(Harad)</item>
+        <item>Henbane</item>
+        <item>Isabgol</item>
+        <item>Jatropha</item>
+        <item>Khasi Kateri</item>
+        <item>Liquorice (Mulethi)</item>
+        <item>Opium Poppy</item>
+        <item>Periwinkle (Sadabahar)</item>
+        <item>Pipali/Long Pepper</item>
+        <item>Rauvolfia(Serpagandha)</item>
+        <item>Senna/Sanay</item>
+        <item>Shatavari</item>
+        <item>Stevia</item>
+        <item>White Musli</item>
+    </string-array>
+
+    <string-array name="Plantation">
+        <item>Plantation Crops</item>
+        <item>Arecanut</item>
+        <item>Cashew nut</item>
+        <item>Cocoa</item>
+        <item>Coconut</item>
+        <item>Coffee</item>
+        <item>Oilpalm</item>
+        <item>Tea</item>
+    </string-array>
+
+    <string-array name="Spices">
+        <item>Spices </item>
+        <item>Ajwain/Carum</item>
+        <item>Betelvine</item>
+        <item>Black Pepper</item>
+        <item>Cardamom(Large)</item>
+        <item>Cardamom(Small)</item>
+        <item>Celery/Dill seeds/ Poppy</item>
+        <item>Cinnamon</item>
+        <item>Clove</item>
+        <item>Coriander Seeds</item>
+        <item>Cumin</item>
+        <item>Fennel</item>
+        <item>Fenugreek</item>
+        <item>Garlic</item>
+        <item>Ginger</item>
+        <item>Mint</item>
+        <item>Nutmeg</item>
+        <item>Saffron</item>
+        <item>Tamarind</item>
+        <item>Turmeric</item>
+        <item>Vanilla</item>
+    </string-array>
+
+    <string-array name="Vegetable">
+        <item>Vegetables</item>
+        <item>Normal Vegetables</item>
+        <item>Leafy Vegetables</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">Map</string>
+
+</resources>

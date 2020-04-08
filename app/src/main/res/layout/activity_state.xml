@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img8"
+    tools:context=".State">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="103dp"
+        android:orientation="vertical"
+
+        android:padding="10dip">
+
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/linear_layout"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="5dp"
+            android:text="State"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_alignLeft="@+id/linear_layout">
+
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp" />
+
+        <TextView
+            android:id="@+id/district"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/linear_layout"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold|italic"
+            android:text="District"
+            android:textColor="@color/black"
+            android:layout_alignLeft="@+id/linear_layout">
+
+        </TextView>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:dropDownWidth="match_parent"
+            android:spinnerMode="dropdown"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/linear_layout"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="5dp"
+            android:text="Name"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_alignLeft="@+id/linear_layout">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/name_edit"
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/cntct"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/linear_layout"
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="5dp"
+            android:text="Contact No."
+            android:textStyle="bold|italic"
+            android:textColor="@color/black"
+            android:layout_alignLeft="@+id/linear_layout">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/cntct_edit"
+            android:textStyle="bold|italic"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:text="SUBMIT"
+        tools:ignore="HardcodedText,OnClick"
+        android:onClick="addData"/>
+
+
+
+</RelativeLayout>

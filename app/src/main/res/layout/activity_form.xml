@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img8"
+    tools:context=".Form">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="640dp"
+        tools:layout_editor_absoluteY="91dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/crop_name"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Crop_Name"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.175" />
+
+            <TextView
+                android:id="@+id/crop_name_edit"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.200" />
+
+
+            <TextView
+                android:id="@+id/climate"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Climate"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.300" />
+
+            <EditText
+                android:id="@+id/climate_edit"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.325" />
+
+            <TextView
+                android:id="@+id/soil"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Soil_type"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.425" />
+
+            <EditText
+                android:id="@+id/soil_edit"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.450" />
+
+            <TextView
+                android:id="@+id/Rainfall_mm"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Rainfall_mm"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.550" />
+
+            <EditText
+                android:id="@+id/Rainfall_mm_edit"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.575" />
+
+            <TextView
+                android:id="@+id/Irrigation_Source_irrigate_or_rainfed"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Irrigation_Source_irrigate_or_rainfed"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.675" />
+            <RadioGroup
+                android:id="@+id/radiogp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/Irrigation_Source_irrigate_edit"
+                    android:layout_width="298dp"
+                    android:layout_height="52dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic"
+                    android:text="Irrigate"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.500"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.700" />
+
+                <RadioButton
+                    android:id="@+id/Irrigation_Source_rainfed_edit"
+                    android:layout_width="298dp"
+                    android:layout_height="52dp"
+                    android:text="Rainfed"
+                    android:textColor="@color/black"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="2.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.700" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Water_source"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Water_Source"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.800" />
+
+            <CheckBox
+                android:id="@+id/Water_cannel"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Water_cannel"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.825" />
+
+            <CheckBox
+                android:id="@+id/Water_tube_well"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Water_tube_well"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.875" />
+
+            <CheckBox
+                android:id="@+id/Water_open_well"
+                android:layout_width="298dp"
+                android:layout_height="52dp"
+                android:text="@string/Water_open_well"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.925" />
+
+            <Button
+                android:id="@+id/Sowing_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="setDate"
+                android:text="@string/Sowing_date"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1" />
+
+            <TextView
+                android:id="@+id/txt"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.5" />
+
+            <TextView
+                android:id="@+id/Land_Holding_Size_hectares"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:text="Land Holding Size"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="2.5" />
+
+            <EditText
+                android:id="@+id/Land_Holding_Size_hectares_edit"
+                android:layout_width="298dp"
+                android:layout_height="58dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="2.75" />
+
+            <TextView
+                android:id="@+id/Fertility_Application_kg_hectares"
+                android:layout_width="298dp"
+                android:layout_height="35dp"
+                android:text="Fertility Application kg/hectares"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="3.5" />
+
+            <TextView
+                android:id="@+id/Nitrogen"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:text="Nitrogen"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="3.75" />
+
+            <EditText
+                android:id="@+id/Nitrogen_edit"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="4" />
+
+            <TextView
+                android:id="@+id/Phosphorous"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:text="Phosphorous"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="4.5" />
+
+            <EditText
+                android:id="@+id/Phosphorous_edit"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="4.75" />
+
+            <TextView
+                android:id="@+id/Potash"
+                android:layout_width="298dp"
+                android:layout_height="18dp"
+                android:text="Potash"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="5" />
+
+            <EditText
+                android:id="@+id/Potash_edit"
+                android:layout_width="298dp"
+                android:layout_height="46dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="5.25" />
+
+            <TextView
+                android:id="@+id/Micro_Nutrients"
+                android:layout_width="298dp"
+                android:layout_height="wrap_content"
+                android:text="Micro Nutrients"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6" />
+
+            <EditText
+                android:id="@+id/Micro_Nutrients_edit"
+                android:layout_width="227dp"
+                android:layout_height="40dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6.25" />
+
+            <TextView
+                android:id="@+id/Yield_kg_hectares"
+                android:layout_width="298dp"
+                android:layout_height="23dp"
+                android:text="Yield kg/hectares"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6" />
+
+            <EditText
+                android:id="@+id/Yield_kg_hectares_edit"
+                android:layout_width="227dp"
+                android:layout_height="39dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6.25" />
+
+            <TextView
+                android:id="@+id/Pest"
+                android:layout_width="298dp"
+                android:layout_height="25dp"
+                android:text="Pest"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6" />
+
+            <EditText
+                android:id="@+id/Pest_edit"
+                android:layout_width="227dp"
+                android:layout_height="43dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6.25" />
+
+            <TextView
+                android:id="@+id/Nearby_Market"
+                android:layout_width="298dp"
+                android:layout_height="26dp"
+                android:text="Nearby_Market"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6" />
+
+            <EditText
+                android:id="@+id/Nearby_Market_edit"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.500"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6.25" />
+
+
+            <TextView
+                android:id="@+id/Near"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="6" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sbmit"
+                android:onClick="saveinfo"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
